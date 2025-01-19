@@ -16,10 +16,12 @@ gradlew build
 
 ## 設定
 
-ビルドを行う JDK のファイルパス
+ビルドを行う JDK のファイルパスは `gradle.properties`から編集できます
 
 ```
-# gradle.properties
-
 org.gradle.java.home=/Path/To/SDK
 ```
+
+## 利用 API
+
+https://repo.maven.apache.org/maven2/net/portswigger/burp/extensions/montoya-api/2024.12/
